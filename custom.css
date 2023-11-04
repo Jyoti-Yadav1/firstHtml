@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+	padding: 0;
+	line-height: 22px;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+figure{
+	margin: 0;
+	padding: 0;
+}
+
+a:hover{
+	color: #ff6104;
+}
+
+.container{
+	margin: 0 50px;
+}
+
+.app-container {
+	font-family: sans-serif;
+}
+
+.app-header {
+	background-color: #CFC3C0;
+	height: 90px;
+}
+
+.header-bar {
+	padding: 28px 0px;
+	display: flex;
+}
+
+.brand-logo {
+	flex: 1;
+}
+
+.header-menus {
+	flex: 3;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.menu-item {
+	margin: 0 30px;
+	font-size: 16px;
+}
+
+.menu-anchor{
+	text-decoration: unset;
+    color: #000;
+}
+
+.active{
+	color: #ff6104;
+}
+
+.bg-image-container {}
+
+.brand-bg-image {
+	width: 100%
+}
+
+.info-container{
+	margin: 0 50px;
+}
+
+.info-title{
+	font-size: 30px;
+}
+
+.info-gutter{
+	font-size: 15px;
+}
+
+.service-gutter{
+	display: flex;
+	/*justify-content: space-between;*/
+	margin: 0 -15px;
+}
+
+.service-info-div{
+	width: 25%;
+	padding: 0 15px;  
+}
+
+.service-info-img{
+	width: 100%;
+}
+
+.app-footer{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 2px solid #9a9a9a;
+    padding: 30px 0;
+}
+
+.footer-text{}
+
+.fo-menu-item-bar{
+	display: flex;
+    justify-content: center;
+}
+
+.fo-menu-item{
+	margin: 0 10px;
+}
+
+.policy-gutter{}
+
+.space-top-50{
+	margin-top: 50px; 
+}
+
+.space-top-20{
+	margin-top: 20px; 
+}

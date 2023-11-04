@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+    font-family: sans-serif;
+}
+
+.app-wrapper {
+    min-width: 380px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+header>nav>span {
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+
+.main-section {
+    padding: 40px;
+    border-bottom: 2px solid #9a9a9a;
+}
+
+.thumb-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.thumb-image {
+    width: 100%
+}
+
+.main-image {
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+.active {
+    color: red;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 30px;
+}
+
+.foort-menu {
+    display: inline-block;
+    min-width: 50px;
+}
